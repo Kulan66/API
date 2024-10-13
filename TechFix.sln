@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechFix", "TechFix\TechFix.csproj", "{B0FE0B50-950C-48E5-824F-8296875FF22A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ACF4870B-682D-4F2B-9284-A98BBDCD1F3B} = {ACF4870B-682D-4F2B-9284-A98BBDCD1F3B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "services", "services\services.csproj", "{ACF4870B-682D-4F2B-9284-A98BBDCD1F3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0FE0B50-950C-48E5-824F-8296875FF22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FE0B50-950C-48E5-824F-8296875FF22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FE0B50-950C-48E5-824F-8296875FF22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FE0B50-950C-48E5-824F-8296875FF22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF4870B-682D-4F2B-9284-A98BBDCD1F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF4870B-682D-4F2B-9284-A98BBDCD1F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF4870B-682D-4F2B-9284-A98BBDCD1F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF4870B-682D-4F2B-9284-A98BBDCD1F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {140CFCD6-70D7-44A9-9313-5CCFB1E0EBFB}
+	EndGlobalSection
+EndGlobal
